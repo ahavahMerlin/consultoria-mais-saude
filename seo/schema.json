@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Consultoria Mais Saúde",
+  "url": "https://ahavahmerlin.github.io/consultoria-mais-saude/",
+  "description": "Consultoria em saúde ocupacional e gestão de saúde empresarial.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "BR"
+  }
+}
