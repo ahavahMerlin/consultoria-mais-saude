@@ -1,44 +1,103 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Consultoria Mais SaÃºde | SaÃºde Ocupacional e SeguranÃ§a do Trabalho</title>
-  <meta name="description" content="Consultoria Mais SaÃºde oferece soluÃ§Ãµes completas em saÃºde ocupacional, seguranÃ§a do trabalho e gestÃ£o de riscos para empresas no Brasil.">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Consultoria em Saúde Ocupacional e Gestão Empresarial | Mais Saúde</title>
+
+  <meta name="description" content="Consultoria em saúde ocupacional e gestão de saúde empresarial. Soluções estratégicas para empresas que valorizam pessoas, conformidade legal e resultados." />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+
+  <!-- SEO -->
+  <link rel="canonical" href="https://ahavahmerlin.github.io/consultoria-mais-saude/" />
+
 </head>
 <body>
 
-<header>
-  <h1>Consultoria Mais SaÃºde</h1>
-  <p>SaÃºde Ocupacional e SeguranÃ§a do Trabalho para sua empresa</p>
-  <a class="cta" href="https://wa.me/5599999999999" target="_blank">Falar no WhatsApp</a>
-</header>
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container">
+      <h1>Consultoria em Saúde Ocupacional e Gestão em Saúde Empresarial</h1>
+      <p>Soluções estratégicas para empresas que valorizam pessoas, conformidade legal e performance em saúde.</p>
 
-<section>
-  <h2>SoluÃ§Ãµes completas para sua empresa</h2>
-  <p>Atuamos com foco em prevenÃ§Ã£o, conformidade legal e bem-estar dos colaboradores.</p>
-</section>
+      <div class="hero-buttons">
+        <a href="#" class="btn btn-primary" onclick="openWhatsApp()">Falar no WhatsApp agora</a>
+        <a href="#contato" class="btn btn-secondary">Solicitar avaliação gratuita</a>
+      </div>
+    </div>
+  </header>
 
-<section>
-  <h2>Nossos ServiÃ§os</h2>
-  <ul>
-    <li>SaÃºde Ocupacional</li>
-    <li>SeguranÃ§a do Trabalho</li>
-    <li>GestÃ£o de Riscos</li>
-    <li>Programas e Laudos ObrigatÃ³rios</li>
-  </ul>
-  <a class="cta" href="servicos.html">Ver todos os serviÃ§os</a>
-</section>
+  <!-- SOBRE -->
+  <section class="section">
+    <div class="container">
+      <h2>Sobre a Consultoria Mais Saúde</h2>
+      <p>
+        A Consultoria Mais Saúde atua oferecendo soluções personalizadas em saúde ocupacional e gestão de saúde empresarial,
+        ajudando empresas a reduzirem riscos, promoverem bem-estar e manterem total conformidade com as exigências legais.
+      </p>
+    </div>
+  </section>
 
-<section>
-  <h2>Por que escolher a Consultoria Mais SaÃºde?</h2>
-  <p>ExperiÃªncia, responsabilidade tÃ©cnica e atendimento humanizado.</p>
-</section>
+  <!-- SERVIÇOS -->
+  <section class="section bg-light">
+    <div class="container">
+      <h2>Nossos Serviços</h2>
 
-<footer>
-  <p>&copy; 2026 Consultoria Mais SaÃºde</p>
-</footer>
+      <div class="cards">
+        <div class="card">
+          <h3>Saúde Ocupacional</h3>
+          <p>Programas de prevenção, acompanhamento técnico e apoio à gestão de riscos ocupacionais.</p>
+          <a href="#" onclick="openWhatsApp()">Falar com especialista</a>
+        </div>
+
+        <div class="card">
+          <h3>Gestão de Saúde Empresarial</h3>
+          <p>Planejamento estratégico em saúde corporativa para reduzir afastamentos e otimizar custos.</p>
+          <a href="#" onclick="openWhatsApp()">Falar com especialista</a>
+        </div>
+
+        <div class="card">
+          <h3>Conformidade Legal</h3>
+          <p>Orientação técnica para atender às normas e exigências legais com segurança e tranquilidade.</p>
+          <a href="#" onclick="openWhatsApp()">Falar com especialista</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="section">
+    <div class="container">
+      <h2>Por que escolher a Mais Saúde?</h2>
+      <ul class="benefits">
+        <li>Atendimento humanizado e personalizado</li>
+        <li>Experiência técnica e responsabilidade profissional</li>
+        <li>Soluções éticas e alinhadas à legislação</li>
+        <li>Foco em resultados reais para empresas</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section bg-dark" id="contato">
+    <div class="container">
+      <h2>Fale com um Especialista</h2>
+      <p>Entre em contato e solicite uma avaliação inicial sem compromisso.</p>
+
+      <a href="#" class="btn btn-primary" onclick="openWhatsApp()">Conversar no WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- WHATSAPP FLOAT -->
+  <div class="whatsapp-float" onclick="openWhatsApp()">
+    💬
+  </div>
+
+  <script src="assets/js/whatsapp.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 </html>
