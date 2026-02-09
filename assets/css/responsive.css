@@ -1,4 +1,14 @@
 @media (max-width: 768px) {
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
   .carousel-track img {
     height: 260px;
   }
