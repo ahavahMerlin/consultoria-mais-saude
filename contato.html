@@ -1,19 +1,30 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Contato | Consultoria Mais SaÃºde</title>
-  <meta name="description" content="Entre em contato com a Consultoria Mais SaÃºde pelo WhatsApp ou formulÃ¡rio.">
+  <title>Contato | Consultoria Mais Saúde</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<h1>Contato</h1>
-<p>Fale conosco pelo WhatsApp e solicite uma avaliaÃ§Ã£o.</p>
+<section class="section">
+  <div class="container">
+    <h1>Solicite uma Avaliação</h1>
+    <p>Preencha os dados e um especialista entrará em contato.</p>
 
-<a class="cta" href="https://wa.me/5599999999999" target="_blank">Chamar no WhatsApp</a>
+    <form action="https://formsubmit.co/SEUEMAIL@EMAIL.COM" method="POST">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <input type="text" name="empresa" placeholder="Empresa">
+      <textarea name="mensagem" placeholder="Como podemos ajudar?"></textarea>
 
-<a href="index.html">Voltar para a Home</a>
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="Novo lead - Consultoria Mais Saúde">
+
+      <button type="submit" class="btn btn-primary">Solicitar contato</button>
+    </form>
+  </div>
+</section>
 
 </body>
 </html>
