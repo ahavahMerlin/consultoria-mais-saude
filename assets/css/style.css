@@ -111,3 +111,35 @@ body {
   border-radius: 50%;
   cursor: pointer;
 }
+.menu {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 15px 0;
+}
+
+.menu .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.menu a:hover {
+  color: #0f766e;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
