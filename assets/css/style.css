@@ -183,3 +183,30 @@ body {
 .carousel-btn.next {
   right: 15px;
 }
+.site-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #064e3b;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #0f172a;
+}
