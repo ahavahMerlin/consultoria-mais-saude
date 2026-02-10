@@ -157,11 +157,11 @@ body {
 
 .carousel-track img {
   width: 100%;
-  height: 300px; /* ANTES: 420px */
-  object-fit: cover;
+  height: 280px;
+  object-fit: contain; /* NÃO CORTA */
+  background: #f8fafc; /* fundo neutro */
   border-radius: 10px;
 }
-
 
 .carousel-btn {
   position: absolute;
@@ -220,6 +220,6 @@ body {
 }
 @media (max-width: 768px) {
   .carousel-track img {
-    height: 220px;
+    height: 200px;
   }
 }
